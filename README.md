@@ -18,3 +18,10 @@ If you need to recompile the shaders for some reason (and assuming you have glsl
 cd shaders
 ./compile_shaders.sh
 ```
+
+You may need to make the shell scripts executable. If so, use the commands:
+
+```
+chmod 755 build.sh
+chmod 755 shaders/compile_shaders.sh
+```
